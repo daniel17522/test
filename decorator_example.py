@@ -10,5 +10,4 @@ def my_decorator(func):
 def say_hello(name):
     print(f"Hello, {name}!")
 
-if __name__ == "__main__":
-    say_hello("World")
+print(say_hello('danya!'))
